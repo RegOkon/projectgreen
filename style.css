@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    text-align: center;
+    padding-left: 16px;
+    background-color: #0d7474;
+    height: 50px;
+    padding-top: 16px;
+    
+    
+    
+}
+
+a{
+    padding-left: 16px;
+    color: rgb(252, 246, 246);
+    text-decoration: none;
+    font-size: large;
+    
+}
+
+.img-div {
+
+    width: 50px;
+
+
+}
+
+.img{
+
+    width: 100px; height: 100px;
+    
+
+
+}
+
+.input{
+
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+
+
+}
+
+.input-1{
+
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+
+div input {
+   background-color: red; 
+}
+
+button{
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 32px;
+}
+
+.first-image{
+    background-image: url(safety-tools.jpg);
+    background-repeat: no-repeat, repeat;
+    background-color: blue;
+    width: 500px;
+    height: 200px;
+}
+
+button:hover{
+    background-color: red;
+}
+
+
+label{
+
+    margin-bottom: 8px;
+
+}
+
+input{
+
+    margin-bottom: 8px;
+
+}
+
+.card{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    color: blue;
+    margin-bottom: 12px;
+
+}
+
+.card-container{
+    background-color: beige;
+    display: flex;
+    gap: 8px;
+    /* flex-basis: 1fr 1fr 2fr 1fr; */
+    width: 50%;
+}
+
